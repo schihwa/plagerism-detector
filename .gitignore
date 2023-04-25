@@ -1,0 +1,13 @@
+# Ignore build and binary files
+build/*
+bin/*
+
+# Ignore text files
+text/*.txt
+
+# But track the empty directories
+!/build/
+!/bin/
+!/text/
+
+

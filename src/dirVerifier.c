@@ -15,7 +15,7 @@ int verifyDirectory(folder* text) {
         if (strcmp(ent->d_name, ".") == 0 || strcmp(ent->d_name, "..") == 0) {
             continue;
         }
-        
+    
         // Construct the file path by appending the file name to the directory path
         char path[100];
         printf(path, sizeof(path), "..\\text\\%s", ent->d_name);
