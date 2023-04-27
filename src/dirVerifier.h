@@ -1,4 +1,3 @@
 #pragma once
-#include "../common/folderContents.h"
-
-int verifyDirectory(folder* text);
+#include "../common/fileLinkedStack.h"
+int verifyDirectory(struct stackNode **);

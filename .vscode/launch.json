@@ -1,6 +1,14 @@
 {
     "version": "0.2.0",
     "configurations": [
+    {
+        "type": "lldb",
+        "request": "launch",
+        "name": "Launch",
+        "program": "${workspaceFolder}/<program>",
+        "args": [],
+        "cwd": "${workspaceFolder}"
+    },
         {
             "name": "Debug",
             "type": "cppdbg",
