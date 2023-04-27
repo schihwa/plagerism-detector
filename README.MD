@@ -31,14 +31,10 @@ or automatically with
 
 ```./plagerismDetector.exe```
 
-or use make in any location in the project directory with 
+or use make 
 
 ```make run```
 
 
 ## Usage
 place the files in question in the text folder, run the program and follow the subsequent steps 
-
-## Contributing
-
-Contributions to this project are welcome! If you find a bug or have a feature request, please open an issue on the GitHub repository.
