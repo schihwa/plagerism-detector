@@ -23,8 +23,8 @@ To run the application, you will need:
 ## Usage
 
 1. Place at least two data files in the "data" folder within the project directory for the application to find and process.
-2. Compile the application by running the command `javac Application.java` in the root directory.
-3. Run the compiled class file located in the "bin" folder with the command `java Application` in the same directory.
+2. Compile the application by running the command `javac -cp lib/jsoup-1.16.1.jar -d bin src/main/*.java` in the root directory.
+3. Run the compiled class file located in the "bin" folder
 
 ## Installation
 
