@@ -1,0 +1,69 @@
+/* Set up the overall layout and styling of the page */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the main content area of the website */
+.website {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+}
+
+/* Style the text content within the main content area */
+.text {
+  margin: 50px;
+  padding: 20px;
+  max-width: 60%;
+  background-color: var(--secondary-color);
+}
+
+/* Set up the container for the text carousel */
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+}
+
+/* Style the image carousel itself */
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 0;
+  list-style: none;
+  width: 50%;
+}
+
+/* Style each individual image within the carousel */
+.carousel li {
+  flex: 0 0 auto;
+  width: 25%;
+  height: 200px;
+  margin-right: 10px;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Add a hover effect to each image within the carousel */
+.carousel li:hover {
+  background-color: #84b4c5;
+}

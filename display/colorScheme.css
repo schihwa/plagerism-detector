@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #757a82;
+    --secondary-color: rgb(65, 61, 61);
+    --background-color: #bec9dc;
+    --text-color: #333;
+    --link-color: white;
+    --link-hover-color: rgb(225, 218, 218);
+    --scrollbar-track-color: #f1f1f1;
+    --scrollbar-thumb-color: #888;
+    --scrollbar-thumb-hover-color: #555;
+  }
